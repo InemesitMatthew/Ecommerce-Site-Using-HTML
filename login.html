@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Login</title>
+    <!-- Google Platform Library -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="css/bootstrap-login-form.min.css" />
+</head>
+
+<body>
+    <style>
+        .gradient-custom {
+            /* fallback for old browsers */
+            background: #6a11cb;
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+        }
+        
+        a {
+            text-decoration: none
+        }
+    </style>
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
+
+                            <div class="mb-md-5 mt-md-4 pb-5">
+
+                                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                                <p class="text-white-50 mb-5">Please enter your login and password!</p>
+                                <div class="form-outline form-white mb-4">
+                                    <input type="email" id="typeEmailX" class="form-control form-control-lg" required/>
+                                    <label class="form-label" for="typeEmailX">Email</label>
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <input type="password" id="typePasswordX" class="form-control form-control-lg" required />
+                                    <label class="form-label" for="typePasswordX">Password</label>
+                                </div>
+                                <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+                                <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="404_page.html">Forgot password?</a></p>
+                                <a href="index.html"><button class="btn btn-outline-light btn-lg px-5" type="submit" onclick="lsRememberMe()">Login</button></a>
+                                <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                                    <a target="_blank" href="404_page.html" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                                    <a target="_blank" href="https://twitter.com/MjkMatthew" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                                    <a target="_blank" href="404_page.html" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                                    <br>
+                                    <!-- <div class="g-signin2" data-onsuccess="onSignIn" data-onsuccess="signOut">
+                                        <a  href="#" onclick="signOut();">Sign in</a>
+                                        <a  href="#" onclick="signOut();">Sign out</a>
+                                    </div> -->
+
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <p class="mb-0">Don't have an account? <a target="_blank" href="signUp.html" class="text-white-50 fw-bold">Sign Up</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <!-- stack path jquery -->
+    <script>
+        src = "https://code.jquery.com/jquery-3.5.1.min.js"
+        src = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    </script>
+    <!-- jQery -->
+    <script src="js/jquery-3.4.1.min.js "></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous ">
+    </script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.js "></script>
+    <!-- bootstrap 5 js -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous "></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js ">
+    </script>
+    <!-- custom js -->
+    <script src="js/custom.js "></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap "></script>
+    <!-- End Google Map -->
+</body>
+
+</html>
